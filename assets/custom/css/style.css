@@ -203,10 +203,11 @@ html {
     padding: 0.5em 0.6em;
 }
 
+
 .fixed-whatsapp {
     position: fixed;
     bottom: 20px;
-    right: 120px;
+    right: 20px;
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -216,11 +217,11 @@ html {
 
 .fixed-whatsapp:before {
     content: "";
-    width: 150px;
+    width: 50px;
     height: 50px;
     background-color: #00C853;
     position: absolute;
-    border-radius: 20px;
+    border-radius: 100%;
     box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
     z-index: 1;
     top: 0;
